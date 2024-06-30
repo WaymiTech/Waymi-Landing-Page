@@ -2,97 +2,234 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-}
-
-header h1 {
-    float: left;
-}
-
-header nav {
-    float: right;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px 0;
-}
-
-section h2 {
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
-.service, .portfolio-item {
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-form {
-    max-width: 600px;
-    margin: auto;
-}
-
-form label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
+.div-2 {
+    max-width: 1200px;
     width: 100%;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-3 {
+    width: 100%;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.div-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.div-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-2 {
+    width: 50px;
+    height: 50px;
     margin-bottom: 10px;
 }
 
-form button {
-    display: block;
+.div-6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.div-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
-    padding: 10px;
-    background: #333;
+}
+
+.div-8,
+.div-9,
+.div-10 {
     color: #fff;
-    border: none;
+    margin: 0 20px;
     cursor: pointer;
+    font-weight: bold;
 }
 
-form button:hover {
-    background: #555;
-}
-
-footer {
-    background: #333;
+.div-11 {
     color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.div-12 {
+    margin-top: 40px;
+}
+
+.div-13 {
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+}
+
+.div-14 {
+    width: 100px;
+    height: 3px;
+    background: #000;
+    margin: 0 auto 10px;
+}
+
+.div-15 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.div-16 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.div-17 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
-    bottom: 0;
+    flex-wrap: wrap;
+}
+
+.div-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.div-19,
+.div-22,
+.div-25,
+.div-30,
+.div-33,
+.div-36 {
+    text-align: center;
+}
+
+.div-20,
+.div-23,
+.div-26,
+.div-31,
+.div-34,
+.div-37 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.div-21,
+.div-24,
+.div-27,
+.div-32,
+.div-35,
+.div-38 {
+    color: #555;
+    font-size: 14px;
+}
+
+.div-28 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.div-29 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.div-39 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.img-9 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.div-40 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-10,
+.img-11,
+.img-12,
+.img-13,
+.img-14,
+.img-15 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.div-41 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div-42 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.div-43,
+.div-44 {
+    color: #555;
+    font-size: 14px;
 }
