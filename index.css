@@ -1781,7 +1781,7 @@
   justify-content: flex-end;
   padding: 0 0 var(--padding-11xs-2);
 }
-.hellokinchotechcom {
+.hellowaymitechcom {
   position: relative;
   line-height: 32.4px;
   white-space: nowrap;
@@ -1891,7 +1891,7 @@
   font-family: var(--font-inter);
 }
 .div4,
-.kincho-tech-marketing {
+.waymi-tech-marketing {
   position: relative;
   line-height: 24px;
   font-weight: 200;
@@ -1900,12 +1900,12 @@
   display: inline-block;
   min-width: 54px;
 }
-.kincho-tech-marketing {
+.waymi-tech-marketing {
   margin-left: -0.3px;
   text-decoration: underline;
   white-space: nowrap;
 }
-.kincho-tech-marketing-wrapper {
+.waymi-tech-marketing-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1978,7 +1978,7 @@
   overflow: hidden;
   object-fit: cover;
 }
-.link-kincho-it {
+.link-waymi-it {
   position: absolute;
   top: 24.4px;
   left: 363px;
@@ -2042,7 +2042,7 @@
   padding: 0 var(--padding-12xs);
   margin-top: -27.2px;
 }
-.itkinchotechcom-by-htmltod {
+.itwaymitechcom-by-htmltod {
   width: 100%;
   position: relative;
   background: linear-gradient(#f7fafc, #f7fafc), #fff;
@@ -2134,7 +2134,7 @@
   .background10 {
     flex-wrap: wrap;
   }
-  .itkinchotechcom-by-htmltod {
+  .itwaymitechcom-by-htmltod {
     padding-left: 651px;
     padding-right: 188px;
     box-sizing: border-box;
@@ -2228,7 +2228,7 @@
     padding-right: var(--padding-65xl);
     box-sizing: border-box;
   }
-  .itkinchotechcom-by-htmltod {
+  .itwaymitechcom-by-htmltod {
     padding-left: 325px;
     padding-right: var(--padding-75xl);
     box-sizing: border-box;
