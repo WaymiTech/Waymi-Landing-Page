@@ -142,15 +142,21 @@ nav ul li a {
     .hero-content .space-age {
         position: relative;
         z-index: 2;
-        font-size: 3.5rem;
+        font-size: 2rem;
         transform: translateY(-160%);
     }
 
     .hero-content .solution {
         position: relative;
         z-index: 2;
-        font-size: 3.5rem;
+        font-size: 2rem;
         transform: translateY(-170%);
+    }
+
+    .hero-content .earth-businesses {
+        position: relative;
+        z-index: 4;
+        font-size: 2rem;
     }
 
     .hero-content .overlapping-image {
